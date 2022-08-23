@@ -18,7 +18,6 @@
   "scripts": {
     "start": "react-scripts start",
     "dev": "concurrently -k \"npm start\" \"cd backend && nodemon server.js\"",
-    "dev:win": "concurrently -k \"npm start\" \"cd backend || nodemon server.js\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
